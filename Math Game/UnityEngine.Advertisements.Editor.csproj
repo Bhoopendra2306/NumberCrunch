@@ -36,18 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\SkAdNetworkUrlParser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\SkAdNetworkJsonParser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\PostProcessBuildPlist.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Source\SkAdNetworkLocalSourceProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Source\SkAdNetworkLocalSource.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Source\ISkAdNetworkSource.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Source\SkAdNetworkRemoteSource.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\SkAdNetworkXmlParser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\SkAdNetworkParser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\SkAdNetworkFileExtension.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\Parser\ISkAdNetworkParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkJsonParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkLocalSourceProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkUrlParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\ISkAdNetworkSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkRemoteSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\ISkAdNetworkParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkFileExtension.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\PostProcessBuildPlist.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Parser\SkAdNetworkXmlParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\Source\SkAdNetworkLocalSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\XCodeSwiftSupportPostProcess.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -280,28 +281,28 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-        <HintPath>C:\Users\mishr\Math Game\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-        <HintPath>C:\Users\mishr\Math Game\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenUpgradeManager">
-        <HintPath>C:\Users\mishr\Math Game\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenUpgradeManager.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenUpgradeManager.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -652,10 +653,10 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\mishr\Math Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\mishr\Math Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

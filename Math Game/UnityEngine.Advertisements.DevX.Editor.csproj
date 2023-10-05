@@ -36,25 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Utils\AdsDashboardUrls.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\AdsSettingsProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\UiUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\GettingStartedUi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\EditorGameServices\AdsServiceIdentifier.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\TestModeUi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Networking\RequestGameIds.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\GameIdsUi.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\UiConstants.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\PluginUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Utils\EditorTimer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\EditorGameServices\AdsService.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\EditorGameServices\AdsServiceEnabler.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\Settings\AdsServiceTopMenu.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\EditorGameServices\Analytics\EditorGameServiceAnalyticsSender.cs" />
-     <None Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\StyleSheets\AdsService.uss" />
-     <None Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\UXML\AdsServiceGameIds.uxml" />
-     <None Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\UXML\AdsServiceGettingStarted.uxml" />
-     <None Include="Library\PackageCache\com.unity.ads@3.7.5\Editor\DevX\UXML\AdsServiceTestMode.uxml" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\GameIdsUi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\PluginUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Utils\AdsDashboardUrls.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Networking\RequestGameIds.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\EditorGameServices\AdsService.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\EditorGameServices\AdsServiceIdentifier.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Utils\EditorTimer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\AdsSettingsProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\UiUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\GettingStartedUi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\EditorGameServices\AdsServiceEnabler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\AdsServiceTopMenu.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\Settings\UiConstants.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\EditorGameServices\Analytics\EditorGameServiceAnalyticsSender.cs" />
+     <None Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\StyleSheets\AdsService.uss" />
+     <None Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\UXML\AdsServiceGameIds.uxml" />
+     <None Include="Library\PackageCache\com.unity.ads@4.4.2\Editor\DevX\UXML\AdsServiceGettingStarted.uxml" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -287,7 +285,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\mishr\Math Game\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -638,10 +636,10 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\mishr\Math Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\mishr\Math Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\mishr\Desktop\NumberCrunch\NumberCrunch\Math Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
